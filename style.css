@@ -296,7 +296,29 @@ h2 {
     background: #0077b6;
     font-weight: bold;
 }
+.contact-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #0b8fac;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
 
+.contact-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.contact-button:active {
+    transform: translateY(0);
+}
 .contact-button:hover {
     opacity: 0.85;
 }
